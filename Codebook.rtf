@@ -1,0 +1,64 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf400
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Codebook \
+\
+
+\b\fs36 Tidy Data set description
+\b0\fs24 \
+The data contains 180 rows and 75 columns. Each row is the set of average values for each subject and activity.\
+\
+
+\b Subject ID
+\b0 \
+The first column is subject ID, which lists a value 1:30 of which subject is relevant. \
+\
+
+\b Activity and actID
+\b0 \
+The next two columns are Activity and actID. Activity describes which action they were taking when the gyroscopic data was taken, and actID is a numeric representation of that Activity. The actID and activity are of the 6 types below:\
+\
+1 WALKING\
+2 WALKING_UPSTAIRS\
+3 WALKING_DOWNSTAIRS\
+4 SITTING\
+5 STANDING\
+6 LAYING\
+\
+
+\b Measurements
+\b0 \
+The other 72 columns taken from the original data set were measurements taken from the accelerometer and gyroscope 3-axis raw signals. All values are normalized between [-1, 1]. The data measured the mean and standard deviation (std) of each of the categories listed below (x, y, and z categories are separated when measured):\
+\
+tBodyAcc-XYZ\
+tGravityAcc-XYZ\
+tBodyAccJerk-XYZ\
+tBodyGyro-XYZ\
+tBodyGyroJerk-XYZ\
+tBodyAccMag\
+tGravityAccMag\
+tBodyAccJerkMag\
+tBodyGyroMag\
+tBodyGyroJerkMag\
+fBodyAcc-XYZ\
+fBodyAccJerk-XYZ\
+fBodyGyro-XYZ\
+fBodyAccMag\
+fBodyAccJerkMag\
+fBodyGyroMag\
+fBodyGyroJerkMag\
+\
+And with the angle() variable several other averages were gathered, but no standard deviation. These are listed below:\
+\
+gravityMean\
+tBodyAccMean\
+tBodyAccJerkMean\
+tBodyGyroMean\
+tBodyGyroJerkMean\
+\
+(Note: Meanfreq() was not taken as it was a weighted average and not just a standard one)\
+}
